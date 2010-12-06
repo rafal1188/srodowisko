@@ -1,0 +1,5 @@
+#!/bin/bash
+komenda=`who | sort | uniq`
+
+
+echo $komenda

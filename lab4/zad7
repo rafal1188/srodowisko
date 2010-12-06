@@ -1,0 +1,12 @@
+echo "Ala ma kota. Kot ma Ale." | sed -e 's/./!/'  - zamiana pierwszego 
+znaku na wykrzyknik
+
+echo "Ala ma kota. Kot ma Ale." | sed -e 's/\./!/' - zamiana pierwszej 
+kropki na wykrzyknik
+
+echo "Ala ma kota. Kot ma Ale." | sed -e 's/./!/g' - zamiana kazdego 
+znaku na wykrzyknik
+
+echo "Ala ma kota. Kot ma Ale." | sed -e 's/\./!/g' - zamiana wszystkich 
+kropek na wykrzykniki
+

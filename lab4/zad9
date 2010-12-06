@@ -1,0 +1,17 @@
+du --max-depth=1 -pokazuje ile waza katalogi uwzgledniajaz jeden katalag 
+w glab
+
+du --max-depth=1 2> /dev/null - to samo co wyzej oraz kasuje wszystkie 
+bledy 
+
+
+
+
+du --max-depth=1 2> /dev/null | sort -n | head -1  -najmniejszy katalog 
+
+
+du --max-depth=1 2> /dev/null |	sort -n | tail -2 | egrep -v '\.$' 
+
+- najwiekszy katalog
+
+

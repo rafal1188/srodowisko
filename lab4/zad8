@@ -1,0 +1,4 @@
+#!/bin/bash
+
+last -400 | grep pts | cut -d ' ' -f 1-3 | sort | uniq -c | sort 
+-r | head -3
